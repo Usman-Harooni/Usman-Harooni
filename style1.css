@@ -1,0 +1,36 @@
+*{
+
+    margin: 0 ; padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    background-color: black;
+
+}
+
+.container h1{
+    border: 5px solid #ffee00;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    color: #ffee00;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+

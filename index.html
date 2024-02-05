@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman Harooni - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d11053812f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Website Designer And Developer</p>
+                <h1>Hi I'm <span>Usman </span>Harooni <br>From Pakistan</h1>
+                <div style="color: #ff004f;">
+                    <p style="font-size: 18px;">Graphic Designer - Video Editor - Website Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/user.png" />
+                </div>
+                <div class="about-col-2">
+                    <p style="font-size: 20px;">
+                        Greetings! I'm Usman Harooni, a versatile professional with a focus on web development,
+                        graphic design, and video editing. I excel in creating seamless and visually appealing
+                        websites, crafting eye-catching graphic designs, and editing compelling videos. My
+                        commitment to excellence and a collaborative approach ensures that I deliver high-quality
+                        work that exceeds expectations. Explore my portfolio to witness the fusion of technology and
+                        creativity in my projects. Let's collaborate to bring your ideas to life!
+                    </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links" onclick="showContent('skills')">Skills</div>
+                        <div class="tab-links" onclick="showContent('experience')">Experience</div>
+                        <div class="tab-links" onclick="showContent('education')">Education</div>
+                    </div>
+                    <div id="tab-contents">
+                        <table class="content-table content-box" id="skills">
+                            <thead>
+                                <tr>
+                                    <th>Skills</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Websites</td>
+                                    <td>Developing and Designing Website</td>
+                                </tr>
+                                <tr>
+                                    <td>Graphic Designing</td>
+                                    <td>Logo-Banner-Thumbnails</td>
+                                </tr>
+                                <tr>
+                                    <td>Video Editing</td>
+                                    <td>Long Short/Short Form</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="content-table content-box" id="experience" style="display: none;">
+                            <thead>
+                                <tr>
+                                    <th>Experience</th>
+                                    <th>Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Graphic Design</td>
+                                    <td>3 years</td>
+                                </tr>
+                                <tr>
+                                    <td>Video Editing</td>
+                                    <td>4 years</td>
+                                </tr>
+                                <tr>
+                                    <td>Website Design and Development</td>
+                                    <td>1 year</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="content-table content-box" id="education" style="display: none;">
+                            <thead>
+                                <tr>
+                                    <th>Education</th>
+                                    <th>School/College</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Currently Studying</td>
+                                    <td>Lahore Grammar School</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Website Development</h2>
+                    <p>Get Yourself A Fully Functional Website</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Video Editing</h2>
+                    <p>Get any type of video edited</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Graphic Design</h2>
+                    <p>Get Yourself Any Kind Of Graphic Design</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work (Website Development)</h1>
+            <div class="work-list">
+                <div class="work" onclick="openContentCrew()">
+                    <br><br>
+                    <h2 style="color: #ffffff;">1.Content Crew</h2>
+                    <img src="assets/work-1.png" class="portfolio-image" alt="Content Crew Project">
+                    <br><br>
+                    <p style="font-size:large;">Developed for a Digital Marketer</p>
+                    <br><br>
+                    <hr>
+                    <br><br>
+                </div>
+            </div>
+
+            <!-- Graphic Design Section -->
+            <h1 class="sub-title">My Work (Graphic Design)</h1>
+
+            <div class="button-container"><a href="Portfolio.html" id="portfolioButton">Click here to see my graphic designing work</a></div>
+
+            <br><br><br><br>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" style="text-align: left;">Contact Me</h1>
+                    <p style="font-size: 15px;"><i class="fa-solid fa-paper-plane"></i>muhammadusmanharooni@gmail.com</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/channel/UCu7k1Nq9UGqlLkjHysa1GHw"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089713922650"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.pinterest.com/gimkeig/"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.instagram.com/m.usman_harooni/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-left">
+                    <!-- Your form content goes here -->
+                    <form id="submit-to-google-sheet">
+                        <!-- Your form content goes here -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copiright">
+        <p>Copyright &copy; Usman Harooni. 2024.</p>
+    </div>
+
+    <!-- Your scripts go here -->
+
+    <script>
+        // Function to open Content Crew link
+        function openContentCrew() {
+            window.location.href = 'https://content-crew.vercel.app';
+        }
+
+        // Function to switch between tabs (Skills, Experience, Education)
+        function showContent(tabId) {
+            const tabContents = document.querySelectorAll('.content-box');
+            tabContents.forEach(content => {
+                content.style.display = 'none';
+            });
+
+            document.getElementById(tabId).style.display = 'table';
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbxI07rEKNgLu7B9sVVaZbLq5vKY3oxxPvTghZBfRKin5WP5bzy2_VZe0SOcEHxMr1CH/exec>'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
